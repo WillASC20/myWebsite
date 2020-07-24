@@ -60,10 +60,30 @@ img{
 }
 .projectIndiv{
     display: inline-block;
+    float:left;
     border-right:solid;
     text-align: center;
     height: 350px;
-    width: 33%;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.projectIndiv3{
+    display: inline-block;
+    float:left;
+    border-right:solid;
+    text-align: center;
+    height: 350px;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.projectIndiv2{
+    display: inline-block;
+    float:right;
+    text-align: center;
+    height: 350px;
+    width: 30%;
     padding-left: 10px;
     padding-right: 10px;
 }
