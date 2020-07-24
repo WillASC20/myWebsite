@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+.content_container{
+    display: block;
+    height:100%;
+    background-color: #F8CECC;
+}
+.content{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+.top_box{
+    display:block;
+    margin: auto;
+    border: solid;
+    background-color: white;
+    width: 40%;
+   
+}
+#topLeft{
+    display: inline-block;
+    float: right;
+    border: solid;
+    background-color: white;
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 400px;
+    
+}
+#topRight{
+    display: inline-block;
+    float: left;
+    border: solid;
+    background-color: white;
+    width: 45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 400px;
+}
+
+.bottomBox{
+    margin-top: 100px;
+    display:block;
+    border:solid;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-bottom: 40px;
+}
+img{
+    width: 200px;
+    height:200px;
+}
+.projectIndiv{
+    display: inline-block;
+    border-right:solid;
+    text-align: center;
+    height: 350px;
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2{
+  text-align: center; 
+}
+.bottomborder{
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+footer{
+    display: block;
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+}
