@@ -1,3 +1,24 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: #F5F5F5;
+    height:90px;
+}
+
+.heading{
+    display:inline-block;
+    width: 32%;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 27px;
+    height:65px;
+}
+.heading:hover{
+    background-color: aqua;
+}
+
 body{
     margin: 0;
 }
@@ -5,43 +26,50 @@ body{
     display: block;
     height:100%;
     background-color: #F8CECC;
+    margin-top: 0;
 }
 .content{
-    display: flex;
+    width: 80%;
+    background-color: rgba(245, 245, 245, 0.267);
+    margin: auto
+}
+*/
+.pageTitle{
+    background-color: #F8CECC;
+    padding-top: 30px;
+    
 }
 
 h1{
     text-align: center;
+    margin: 0;
+
 }
-.top_box{
+#top_box{
     display:block;
-    margin: auto;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
     border: solid;
     background-color: white;
-    width: 40%;
+    width: 60%;
+    height: 300px;
    
 }
-#topLeft{
-    display: inline-block;
-    float: right;
+#lowerBox{
+    display:block;
+    margin-top: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: auto;
     border: solid;
     background-color: white;
-    width: 45%;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 400px;
+    width: 60%;
+    height: 300px;
     
 }
-#topRight{
-    display: inline-block;
-    float: left;
-    border: solid;
-    background-color: white;
-    width: 45%;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 400px;
-}
+
 
 .bottomBox{
     margin-top: 100px;
